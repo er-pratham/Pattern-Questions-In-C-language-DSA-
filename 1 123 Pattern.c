@@ -15,5 +15,17 @@ void main()
         }
         printf("\n");
     }
+    char permit;
+    printf("If You Wanna Use This Program Again.Press Y: ");
+    scanf("%c",&permit);
+    if(permit=='Y' || permit=='y')
+    {
+        printf("Redirecting To Program Again:\n");
+        goto start;
+    }
+    else 
+    {
+        printf("Thanks for using our program.Developed By Er Pratham Saxena");
+    }
     getch();
 }
